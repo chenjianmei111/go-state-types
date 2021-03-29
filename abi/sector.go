@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-state-types/big"
+	"github.com/chenjianmei111/go-state-types/big"
 )
 
 // SectorNumber is a numeric identifier for a sector. It is usually relative to a miner.
@@ -100,7 +100,7 @@ const (
 // Metadata about a seal proof type.
 type SealProofInfo struct {
 	// The proof sizes are 192 * the number of "porep" partitions.
-	// https://github.com/filecoin-project/rust-fil-proofs/blob/64390b6fcedb04dd1fdbe43c82b1e91c1439cea2/filecoin-proofs/src/constants.rs#L68-L80
+	// https://github.com/chenjianmei111/rust-fil-proofs/blob/64390b6fcedb04dd1fdbe43c82b1e91c1439cea2/filecoin-proofs/src/constants.rs#L68-L80
 	ProofSize        uint64
 	SectorSize       SectorSize
 	WinningPoStProof RegisteredPoStProof

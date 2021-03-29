@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/filecoin-project/go-address"
-	"github.com/filecoin-project/go-state-types/abi"
+	"github.com/chenjianmei111/go-address"
+	"github.com/chenjianmei111/go-state-types/abi"
 )
 
 func newIDAddr(t testing.TB, id uint64) address.Address {
